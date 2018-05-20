@@ -1,0 +1,17 @@
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\obj\Debug\DBAplicacao.csproj.CoreCompileInputs.cache
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBAplicacao.dll.config
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBAplicacao.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBAplicacao.pdb
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBDominio.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBRepositorioEF.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\EntityFramework.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\MySql.Data.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBDominio.pdb
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBDominio.dll.config
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBRepositorioEF.pdb
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\DBRepositorioEF.dll.config
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\bin\Debug\EntityFramework.xml
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\obj\Debug\DBAplicacao.csprojResolveAssemblyReference.cache
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\obj\Debug\DBAplicacao.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBAplicacao\obj\Debug\DBAplicacao.pdb

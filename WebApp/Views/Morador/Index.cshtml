@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DBDominio.Morador>
+@{
+    ViewBag.Title = "Lista de Moradores";
+}
+
+<h2>Lista de Moradores</h2>
+
+<div class="form-inline">
+    @Html.ActionLink("Novo", "Novo", "Morador", null, new { @class = "btn btn-default" })
+    @using (Html.BeginForm("Index", "Morador", FormMethod.Get))
+    {
+        @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Procurar" class="btn btn-primary" />
+    }
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Unidade.BlocoUnidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {        
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unidade.BlocoUnidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Editar", new { id = item.MoradorId }) |
+                @Html.ActionLink("Excluir", "Excluir", new { id = item.MoradorId })
+            </td>
+        </tr>
+    }
+
+</table>

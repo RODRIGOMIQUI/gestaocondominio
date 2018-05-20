@@ -1,0 +1,11 @@
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\bin\Release\DBDominio.dll.config
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\bin\Release\DBDominio.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\bin\Release\DBDominio.pdb
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\bin\Release\EntityFramework.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\bin\Release\EntityFramework.SqlServer.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\bin\Release\EntityFramework.xml
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\bin\Release\EntityFramework.SqlServer.xml
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\obj\Release\DBDominio.csprojResolveAssemblyReference.cache
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\obj\Release\DBDominio.csproj.CoreCompileInputs.cache
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\obj\Release\DBDominio.dll
+C:\Projetos\GestaoCondominio\gestaocondominio\DBDominio\obj\Release\DBDominio.pdb

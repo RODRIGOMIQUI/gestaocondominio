@@ -1,0 +1,44 @@
+﻿@model IEnumerable<DBDominio.Unidade> 
+@{
+    ViewBag.Title = "Lista de Unidades";
+}
+
+<h2>Lista de Unidades</h2>
+
+<div class="form-inline">
+    @Html.ActionLink("Novo", "Novo", "Unidade", null, new { @class = "btn btn-default" })
+    @using (Html.BeginForm("Index", "Unidade", FormMethod.Get))
+    {
+        @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Procurar" class="btn btn-primary" />
+    }
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Bloco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Numero)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bloco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Editar", new { id = item.UnidadeId }) |
+                @Html.ActionLink("Excluir", "Excluir", new { id = item.UnidadeId })
+            </td>
+        </tr>
+    }
+
+</table>
